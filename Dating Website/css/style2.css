@@ -61,3 +61,96 @@ textarea.form-control {
 .navbar-nav.navbar-right:last-child {
     margin-right:0px;
 }}
+
+
+/*TIm quanh day*/
+
+.two-column-section {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+}
+..containers {
+    max-width: 740px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 45px 20px;
+}
+.two-column-section-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    box-sizing: border-box;
+}
+.radar-visual {
+    background: #dbf6f9;
+    width: 80%;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.radar-visual-core {
+    background: #beeef4;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    padding: 10%;
+    border-radius: 50%;
+}
+.scrolled .radar-visual-photo {
+    transform: scale(1);
+}
+.radar-visual-photo.photo-01 {
+    bottom: 2%;
+    left: 8%;
+   
+}
+.radar-visual-photo {
+    border: 2px solid #fff;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 20%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transform: scale(0);
+}
+.radar-visual-photo.photo-02 {
+    top: 5%;
+    left: 9%;
+    transition-delay: .15s;
+}
+.radar-visual-photo.photo-03 {
+    top: 40%;
+    right: -5%;
+    transition-delay: .3s;
+}
+.radar-visual-photo.photo-04 {
+    bottom: 0;
+    right: 10%;
+    transition-delay: .2s;
+}
+.radar-visual-photo.photo-05 {
+    top: 45%;
+    left: -6%;
+    transition-delay: .25s;
+}
+.radar-visual-photo.photo-06 {
+    bottom: 14%;
+    left: 42%;
+    transition-delay: .4s;
+}
+.radar-visual-photo.photo-07 {
+    top: 2%;
+    right: 12%;
+    transition-delay: .35s;
+}
+.radar-visual-photo.photo-08 {
+    top: 14%;
+    left: 42%;
+    transition-delay: .45s;
+}

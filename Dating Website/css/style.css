@@ -11,12 +11,7 @@ img{
 .img-responsive{
 	    margin: auto;
 }
-#main{
-	background-image:url('../images/01.png') ;
-	background-size:100% 100%;
-	height: 675px;
 
-}
 #top-menu{
 	background: #95a5a6;
 }
@@ -201,4 +196,48 @@ figcaption{
 }
 .form-group{
 	margin-top: 3rem;
+}
+
+/*style success story*/
+
+.story{
+	background-color: #EEEEEE;
+}
+
+#fixpadding{
+	height: 243px;
+	margin: 0 ;
+	padding: 0;
+	background: #FFF;
+
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#success_story{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#fixpadding h5{
+	letter-spacing: 1px;
+    margin: 24px 0 12px;
+    text-transform: uppercase;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+#fixpadding h5,p{
+	text-align: center;
+}
+#fixpadding p{
+	font-style: italic;
+}
+#fixpadding p:last-child{
+	color: red;
+
+.promo{}
+		text-align: center;
 }
