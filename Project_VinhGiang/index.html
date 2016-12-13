@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Dating Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1" >
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+
+</head>
+<body>
+
+	<div class="container-fluid" id="main">
+		<div class="container" id="test">
+			<div class="wrapper row0">
+    			    <div id="topbar"> 
+    			    
+    			    	 <div class="fl_left">
+    				        <ul>
+    				          <li><i class="fa fa-phone"></i> 01667094945 </li>
+    				          <li><i class="fa fa-envelope-o"></i> contact@henho.vn</li>
+    				        </ul>
+    				     </div>
+
+        			      <div class="fl_right">
+        			        <ul>
+        			          <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+        			          <li><a href="#login" data-toggle="modal" >Login</a></li>
+        			          <li><a href="#login" data-toggle="modal">Register</a></li>
+        			        </ul>
+        			      </div>
+         
+      			  	</div>
+ 			 </div>
+
+ 			<div class="wrapper row2">
+ 				<nav class="navbar navbar-default">
+					
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					     	
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					     
+					      
+					      <ul class="nav navbar-nav navbar-left" id="logo">
+					      		<h1><a href="index.html">Dating Website</a></h1>
+					      </ul>
+					      <ul class="nav navbar-nav navbar-right" id="menu-bar">
+					        <li><a href="index.html">Trang chủ</a></li>
+					        <li><a href="timkiem.html">Tìm kiếm</a></li>
+                  <li><a href="nhomhoi.html">Nhóm</a></li>
+					        <li><a href="#">Blog</a></li>
+					      </ul>
+					    </div><!-- /.navbar-collapse -->
+					  
+			    </nav>  
+
+            </div>
+
+            <!--  <div class="col-sm-4" id="search-box">
+                    <form>
+                        <div class="title-form">
+                            <h4>Kết đôi theo tiêu chí</h4>
+                        </div>
+
+                        <div class="main-form">
+                            <div class="form-check" id="sex">
+                                Giới tính :
+                                <label><input type="radio" name="female" checked >Nam</label>
+                                <label><input type="radio" name="male">Nu</label>
+                            </div>
+
+                            <div class="form-group" id ="birthday">
+                               Năm sinh :
+                               <select name="year">
+                                   <option>Từ</option>
+                                   <option>2000</option>
+                                   <option>1999</option>
+                                   <option>1998</option>
+                                   <option>1997</option>
+                                   <option>1997</option>
+                                   <option>1995</option>
+                                   <option>1994</option>
+                                   <option>1993</option>
+                                   <option>1992</option>
+                                   <option>1991</option>
+                                   <option>1990</option>
+                                   <option>1989</option>
+                                   <option>1988</option>
+                                   <option>1987</option>
+                                   <option>1986</option>
+
+                               </select>
+                                <select name="year">
+                                   <option>Đến</option>
+                                   <option>2000</option>
+                                   <option>1999</option>
+                                   <option>1998</option>
+                                   <option>1997</option>
+                                   <option>1997</option>
+                                   <option>1995</option>
+                                   <option>1994</option>
+                                   <option>1993</option>
+                                   <option>1992</option>
+                                   <option>1991</option>
+                                   <option>1990</option>
+                                   <option>1989</option>
+                                   <option>1988</option>
+                                   <option>1987</option>
+                                   <option>1986</option>
+
+                               </select>
+                            </div>
+
+                             <div class="chieu_cao">
+                               Chiều cao :
+                               <select name="height">
+                                   <option>Từ(cm)</option>
+                                   <option>150cm</option>
+                                   <option>151cm</option>
+                                   <option>152cm</option>
+                                   <option>153cm</option>
+                                   <option>154cm</option>
+                                   <option>155cm</option>
+                                   <option>156cm</option>
+                                   <option>157cm</option>
+                                   <option>158cm</option>
+                                   <option>159cm</option>
+                                   <option>160cm</option>
+                                 
+                                   <option>161cm</option>
+                                   <option>162cm</option>
+                                   <option>163cm</option>
+                                   <option>164cm</option>
+                                   <option>165cm</option>
+                                   <option>166cm</option>
+                                   <option>167cm</option>
+                                   <option>168cm</option>
+                                   <option>169cm</option>
+                                   <option>170cm</option>
+                                   <option>171cm</option>
+                                   <option>172cm</option>
+                                   <option>173cm</option>
+                                   <option>174cm</option>
+                                   <option>175cm</option>
+                                   <option>176cm</option>
+                                   <option>177cm</option>
+                                   <option>178cm</option>
+                                   <option>179cm</option>
+                                   <option>180cmcm</option>
+
+                               </select>
+                                <select name="height">
+                                   <option>Đến(cm)</option>
+                                   <option>150cm</option>
+                                   <option>151cm</option>
+                                   <option>152cm</option>
+                                   <option>153cm</option>
+                                   <option>154cm</option>
+                                   <option>155cm</option>
+                                   <option>156cm</option>
+                                   <option>157cm</option>
+                                   <option>158cm</option>
+                                   <option>159cm</option>
+                                   <option>160cm</option>
+                                 
+                                   <option>161cm</option>
+                                   <option>162cm</option>
+                                   <option>163cm</option>
+                                   <option>164cm</option>
+                                   <option>165cm</option>
+                                   <option>166cm</option>
+                                   <option>167cm</option>
+                                   <option>168cm</option>
+                                   <option>169cm</option>
+                                   <option>170cm</option>
+                                   <option>171cm</option>
+                                   <option>172cm</option>
+                                   <option>173cm</option>
+                                   <option>174cm</option>
+                                   <option>175cm</option>
+                                   <option>176cm</option>
+                                   <option>177cm</option>
+                                   <option>178cm</option>
+                                   <option>179cm</option>
+                                   <option>180cmcm</option>
+
+                               </select>
+                            </div>
+
+                            <div class="live">
+                                Khu vực 
+                                <select name="live">
+                                    <option>Hà Nội</option>
+                                    <option>Hải Phòng</option>
+                                    <option>TP HCM</option>
+                                    <option>Đà Nẵng</option>
+                                    <option>Cần Thơ</option>
+                                    <option>Quảng Ninh</option>
+                                    <option>Nha Trang</option>
+                                    <option>Khánh Hoà</option>
+                                    <option>Hà Tĩnh</option>
+                                    <option>Hải Dương</option>
+                                    <option>Hưng Yên</option>
+                                    <option>Bà Rịa -Vũng Tàu</option>
+
+                                </select>
+                            </div>
+
+                        </div>
+                    </form>
+             </div> -->
+
+        </div>
+
+ 	</div>
+		 <!-- About us-->
+	    <section id="contact-us">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 text-center">
+	                    <h2 class="section-heading">About Us</h2>
+	                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+	                </div>
+	            </div>
+	            <div class="row text-center">
+	                <div class="col-sm-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-female fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="total-heading">1024</h4>
+	                    <p class="text-muted">TOTAL REGISTERED WOMEN</p>
+	                </div>
+	                <div class="col-sm-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="service-heading">2056</h4>
+	                    <p class="text-muted">TOTAL REGISTERED MEMBERS</p>
+	                </div>
+	                <div class="col-sm-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-male fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="service-heading">1032</h4>
+	                    <p class="text-muted">TOTAL REGISTERED MEN</p>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+
+	   <!--  Top member -->
+
+    	<!-- <div class="container" id="top-member">
+    		<h2>Top Member</h2>
+    		<ul  class="btn-group" data-toggle="buttons" >
+    		<label class="btn btn-primary active">
+    				<li> <a href="#member-list-1">Newest</a></li>
+ 			 </label>
+ 			 <label class="btn btn-primary" id="list2">
+    					<li> <a href="#member-list-2">Active</a></li>
+ 			 </label>
+ 			 <label class="btn btn-primary">
+    				<li> <a href="">Popular</a></li>
+ 			 </label>
+    			
+    			
+    		</ul>
+    		<div id="member-list-1" class="abc-content">
+    			<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+    							<h5 class="item-title">Tên</h5>
+    							<div class="item-desc">Tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+
+    							<h5 class="item-title">tên</h5>
+    							<div class="item-desc">tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+
+    							<h5 class="item-title">Tên</h5>
+    							<div class="item-desc">Tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+    							<h5 class="item-title">tên</h5>
+    							<div class="item-desc">tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+    		</div>
+    		<div id="member-list-2" class="abc-content hidden">
+    			<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/linh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+    							<h5 class="item-title">Tên</h5>
+    							<div class="item-desc">Tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+
+    							<h5 class="item-title">tên</h5>
+    							<div class="item-desc">tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+
+    							<h5 class="item-title">Tên</h5>
+    							<div class="item-desc">Tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="col-sm-3">
+    					<div class="member_group">
+    						<div class="item_user">
+    							<img src="images/vinh.png" class="img-responsive">
+    						</div>
+    						<div class="item">
+    							
+    							<h5 class="item-title">tên</h5>
+    							<div class="item-desc">tuổi</div>
+    							<a href="">View Group</a>
+
+    						</div>
+    					</div>
+    				</div>
+    		</div>
+
+    	</div> -->
+
+    		<!-- Active user group -->
+
+
+    <!-- 	<div class="active-user-groups">
+    		<div class="container">
+
+    			<div class="row" >
+    				 <div class="col-sm-12 text-center">
+                            <h2 class="section-heading">Active User Groups</h2>
+                     </div>
+
+                     <div class="col-sm-3">
+                        
+                            <div class="item">
+                                <div class="avatar"> 
+                                    <figure>
+                                         <img src="images/nhung.jpg" class="img-responsive">
+                                         
+                                    </figure>
+                                
+                                </div>
+                                <div class="des">
+                                    <figcaption>
+                                             <img src="images/heart.png" class="img-responsive">
+                                         </figcaption>
+                                    <h5 class="item-title">Dating</h5>
+                                    <div class="item-desc">Lorem ipsum dolor sit amet</div>
+                                    <a href="">View Group</a>
+                              </div> 
+                            </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        
+                            <div class="item">
+                                <div class="avatar"> 
+                                    <figure>
+                                         <img src="images/nhung.jpg" class="img-responsive">
+                                         
+                                    </figure>
+                                
+                                </div>
+                                <div class="des">
+                                    <figcaption>
+                                             <img src="images/heart.png" class="img-responsive">
+                                         </figcaption>
+                                    <h5 class="item-title">Dating</h5>
+                                    <div class="item-desc">Lorem ipsum dolor sit amet</div>
+                                    <a href="">View Group</a>
+                              </div> 
+                            </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        
+                            <div class="item">
+                                <div class="avatar"> 
+                                    <figure>
+                                         <img src="images/nhung.jpg" class="img-responsive">
+                                         
+                                    </figure>
+                                
+                                </div>
+                                <div class="des">
+                                    <figcaption>
+                                             <img src="images/heart.png" class="img-responsive">
+                                         </figcaption>
+                                    <h5 class="item-title">Dating</h5>
+                                    <div class="item-desc">Lorem ipsum dolor sit amet</div>
+                                    <a href="">View Group</a>
+                              </div> 
+                            </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        
+                            <div class="item">
+                                <div class="avatar"> 
+                                    <figure>
+                                         <img src="images/nhung.jpg" class="img-responsive">
+                                         
+                                    </figure>
+                                
+                                </div>
+                                <div class="des">
+                                    <figcaption>
+                                             <img src="images/heart.png" class="img-responsive">
+                                         </figcaption>
+                                    <h5 class="item-title">Dating</h5>
+                                    <div class="item-desc">Lorem ipsum dolor sit amet</div>
+                                    <a href="">View Group</a>
+                              </div> 
+                            </div>
+                    </div>
+                  
+
+
+    				
+
+    				
+
+
+
+
+
+
+    			</div>
+    		</div>
+
+
+    	 </div> -->
+
+
+
+		    <div class="container" id="blog">
+           
+            <div class="post">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/hoa.jpg">
+                            </div>
+                            <div class="tag">Lifestyle</div>
+                            <div class="title">More than just a music festival</div>
+                            <div class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+                        
+                        </div>
+
+                       
+                    </div>  
+
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/hoa.jpg">
+                            </div>
+                            <div class="tag">Lifestyle</div>
+                            <div class="title">Life tastes better with coffee</div>
+                            <div class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+                        
+                        </div>
+                       
+                    </div> 
+
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/hoa.jpg">
+                            </div>
+                            <div class="tag">Lifestyle</div>
+                            <div class="title">Life tastes better with coffee</div>
+                            <div class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+                        </div>
+                       
+                    </div>  
+
+
+                     <div class="col-sm-3">
+                        <div class="item">
+                            <div class="thumbnail">
+                                <img src="images/hoa.jpg">
+                            </div>
+                            <div class="tag">Lifestyle</div>
+                            <div class="title">More than just a music festival</div>
+                            <div class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit </div>
+                        
+                        </div>
+                    </div> 
+
+
+                </div>
+            </div> <!-- end .post -->      
+        </div>
+
+      <div class="story">
+        <div class="container" id="success_story">
+                <h3>Success Story</h3>
+              <div class="row">
+                  <div class="col-sm-4" id="fixpadding">
+                      <h5>Tình yêu và cuộc sống</h5>
+                      <p>Quis placerat odio porta odio mid, placerat lundium pulvinar, tincidunt dis pulvinar? Dis et, hac, vel elementum elit in mauris in mauris. Ut diam integer, a ut, porttitor vut mus,…</p>
+                      <p>Read full story</p>
+                  </div>
+                  <div class="col-sm-4" id="fixpadding">
+                      <img src="images/blog1.jpg">
+                  </div>
+                  <div class="col-sm-4" id="fixpadding">
+                      <h5>Tình yêu và cuộc sống</h5>
+                      <p>Quis placerat odio porta odio mid, placerat lundium pulvinar, tincidunt dis pulvinar? Dis et, hac, vel elementum elit in mauris in mauris. Ut diam integer, a ut, porttitor vut mus,…</p>
+                      <p>Read full story</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-4" id="fixpadding">
+                      <img src="images/blog2.jpg">
+                  </div>
+                  <div class="col-sm-4" id="fixpadding">
+                      <h5>Tình yêu và cuộc sống</h5>
+                      <p>Quis placerat odio porta odio mid, placerat lundium pulvinar, tincidunt dis pulvinar? Dis et, hac, vel elementum elit in mauris in mauris. Ut diam integer, a ut, porttitor vut mus,…</p>
+                      <p>Read full story</p>
+                  </div>
+                  <div class="col-sm-4" id="fixpadding">
+                      <img src="images/blog3.jpg">
+                  </div>
+                  <!-- <div class="clearfix"></div>
+
+                  <div class="aligncenter">
+                      <a class="button" href="">View All</a>
+                  </div> -->
+              </div>
+        </div>
+      </div>
+
+
+
+			<footer>
+			<div class="container" id="futer">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2016</h6>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Trang chủ</a></li>
+							<li><a href="#">Kết đôi</a></li>
+							<li><a href="#">Hẹn Hò</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Vinhkma</h6>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div>
+			</footer>
+		</div>
+
+    <div class="modal fade" id="login" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <div>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+
+                  <li role="presentation" class="active"><a href="#signin" aria-controls="home" role="tab" data-toggle="tab">Sign In</a></li>
+                  <li role="presentation"><a href="#signup" aria-controls="profile" role="tab" data-toggle="tab">Sign Up</a></li>
+                  
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="signin">
+
+                      <form class="form-horizontal">
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox"> Remember me
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <a href="">Quên mật khẩu</a>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn btn-default">Sign in</button>
+                            </div>
+                          </div>
+                        </form>
+                      
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="signup">
+                       <form class="form-horizontal">
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="inputEmail3" placeholder="Username">
+                            </div>
+                          </div>
+                        
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">RePassword</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3" placeholder="RePassword">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Sex :</label>
+                            <div class="col-sm-10 radio">
+                             <!--  <input type="password" class="form-control" id="inputPassword3" placeholder="RePassword"> -->
+                              <label><input type="radio" value="option1" checked> Nam</label>
+
+                              <label> <input type="radio" value="option1" checked> Nữ </label>
+                            </div>
+                          </div>
+                           <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Ngày sinh</label>
+                            <div class="col-sm-10">
+                                <select>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>18</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                                <select>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04</option>
+                                    <option>05</option>
+                                    <option>06</option>
+                                    <option>07</option>
+                                    <option>08</option>
+                                    <option>09</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    
+                                </select>
+
+                                <select>
+                                    <option>1998</option>
+                                    <option>1997</option>
+                                    <option>1996</option>
+                                    <option>1995</option>
+                                    <option>1994</option>
+                                    <option>1993</option>
+                                    <option>1992</option>
+                                    <option>1991</option>
+                                    <option>1990</option>
+                                    <option>1989</option>
+                                    <option>1988</option>
+                                    <option>1987</option>
+                                    <option>1986</option>
+                                    <option>1985</option>
+                                    <option>1984</option>
+                                    <option>1983</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Khu vực</label>
+                            <div class="col-sm-10">
+                                <select>
+                                    <option>Hà Nội</option>
+                                    <option>Hải Phòng</option>
+                                    <option>Hải Dương</option>
+                                    <option>Hưng Yên</option>
+                                    <option>Nghệ An</option>
+                                    <option>Vĩnh Phúc</option>
+                                </select>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn btn-default">Sign in</button>
+                            </div>
+                          </div>
+                        </form>
+                  </div>
+                  
+                </div>
+
+              </div>
+        </div>
+      </div>
+    </div>
+
+
+		<script   src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		
+</body>
+</html>

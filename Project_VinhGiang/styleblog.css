@@ -1,0 +1,256 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+}
+img{
+    max-width: 100%;
+}
+
+.img-responsive{
+    margin: auto;
+}
+#main{
+    /*background-image:url('...\images\bg1.jpg');*/
+    background-color: #FFcc66;
+
+}
+#top-menu{
+    background: #95a5a6;
+}
+
+.nav > li {
+    margin-right: 20px;
+}
+.nav > li >a{
+    font-size: 20px;
+}
+
+.fl_left li{
+    color: #ecf0f1;
+}
+.fl_right li{
+    border-right: 1px solid #ecf0f1;
+    color: #ecf0f1;
+}
+.fl_right a{
+    color: #ecf0f1;
+}
+
+#menu-bar a{
+    color: white;
+}
+
+
+
+
+
+.member-tab {
+    margin: 0 auto 40px;
+    text-align: center;
+    list-style-type: none;
+
+
+}
+.member-tab ul li{
+    display: inline-block;
+    position: relative;
+}
+.item_user img{
+    border-radius: 126px;
+}
+
+
+.fl_right{
+    float: right;
+}
+.fl_left{
+    float: left;
+}
+
+
+.wrapper{
+    margin-bottom: 30px;
+
+}
+
+#topbar{
+    padding:25px 0;
+    border-bottom:1px solid #ecf0f1;
+    font-size:1.2rem;
+    text-transform:uppercase;
+
+
+}
+#topbar *{
+    margin:0; padding:0;
+    list-style-type:none;
+    text-decoration: none;
+}
+#topbar ul li{
+    display:inline-block;
+    margin-right:10px;
+    padding-right:15px;
+    border-right:1px solid;
+}
+#topbar ul li:last-child{
+    margin-right:0;
+    padding-right:0;
+    border-right:none;}
+#topbar i{
+    margin:0 5px 0 0;
+    line-height:normal;
+}
+
+
+
+/*Contact us*/
+
+/*Top member*/
+
+/*
+ user groups*/
+
+.active-user-groups{
+    display: block;
+    height: auto;
+}
+/*figcaption{*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*transform: translateY(-50%);*/
+    /*margin-top: -10px;*/
+/*}*/
+
+@media screen and (max-width:450px){
+    #topbar ul li{margin-bottom:2px;
+        padding-right:0; border-right:none;
+    }
+
+}
+@media screen and (max-width:750px){
+    .imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+    .fl_left, .fl_right{display:block; float:none;}
+
+    #topbar{text-align:center;}
+    #topbar ul{margin:0 0 15px 0;}
+    #topbar div:last-child ul{margin:0;}
+
+    #header{text-align:center;}
+    #header #logo{margin:0 0 15px 0;}
+}
+
+
+/*.form-login{*/
+/*padding:30px 0px 0px 0px;*/
+/*}*/
+
+
+
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+.hr{
+    height:2px;
+    margin:20px 0 10px 0;
+    background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+

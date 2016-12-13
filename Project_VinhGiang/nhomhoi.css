@@ -1,0 +1,446 @@
+figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+figure:hover img {
+    opacity: .5;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+
+}
+img{
+    max-width: 100%;
+}
+
+.img-responsive{
+    margin: auto;
+}
+#main{
+    /*background-image:url('...\images\bg1.jpg');*/
+    background-color: #FFcc66;
+
+}
+#top-menu{
+    background: #95a5a6;
+}
+
+.nav > li {
+    margin-right: 20px;
+}
+.nav > li >a{
+    font-size: 20px;
+}
+
+.fl_left li{
+    color: #ecf0f1;
+}
+.fl_right li{
+    border-right: 1px solid #ecf0f1;
+    color: #ecf0f1;
+}
+.fl_right a{
+    color: #ecf0f1;
+}
+
+#menu-bar a{
+    color: white;
+}
+.figcaption:hover img{
+    /*opacity: 0.5;*/
+    transform: translate(0, -30px);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: all 1s  ease-in-out;
+
+}
+figure{
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px rgb(105,164,206);
+}
+figure .img-responsive{
+    width: 242px;
+    height: 242px;
+}
+
+
+
+
+.member-tab {
+    margin: 0 auto 40px;
+    text-align: center;
+    list-style-type: none;
+
+
+}
+.member-tab ul li{
+    display: inline-block;
+    position: relative;
+}
+.item_user img{
+    border-radius: 126px;
+}
+
+
+.fl_right{
+    float: right;
+}
+.fl_left{
+    float: left;
+}
+
+
+.wrapper{
+    margin-bottom: 30px;
+
+}
+
+#topbar{
+    padding:25px 0;
+    border-bottom:1px solid #ecf0f1;
+    font-size:1.2rem;
+    text-transform:uppercase;
+
+
+}
+#topbar *{
+    margin:0; padding:0;
+    list-style-type:none;
+    text-decoration: none;
+}
+#topbar ul li{
+    display:inline-block;
+    margin-right:10px;
+    padding-right:15px;
+    border-right:1px solid;
+}
+#topbar ul li:last-child{
+    margin-right:0;
+    padding-right:0;
+    border-right:none;}
+#topbar i{
+    margin:0 5px 0 0;
+    line-height:normal;
+}
+
+#logo h1{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size:22px;
+    text-transform:uppercase;
+}
+
+/*Contact us*/
+.contact-us{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*Top member*/
+#top-member h2{
+    text-align: center;
+}
+.member-tab li{
+    display: inline-block;
+    border: 1px solid #95A5A6;
+}
+#list2{
+    display: block;
+    position: relative;
+}
+
+/*
+ user groups*/
+.active-user-groups{
+    display: block;
+    height: auto;
+}
+figcaption{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    margin-top: -10px;
+}
+.des{
+    position: relative;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width:450px){
+    #topbar ul li{margin-bottom:2px;
+        padding-right:0; border-right:none;
+    }
+
+}
+
+@media screen and (max-width:750px){
+    .imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+    .fl_left, .fl_right{display:block; float:none;}
+
+    #topbar{text-align:center;}
+    #topbar ul{margin:0 0 15px 0;}
+    #topbar div:last-child ul{margin:0;}
+
+    #header{text-align:center;}
+    #header #logo{margin:0 0 15px 0;}
+}
+
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+    padding-top: 30px;
+    width:100%;
+    margin:auto;
+    max-width:100%;
+    min-height:550px;
+    position:relative;
+    /*box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*/
+}
+.login-html{
+    width:100%;
+    height:456px;
+    position:absolute;
+    padding:30px 30px 30px 30px;
+    background-color: #EAF9FF;
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    -webkit-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+    display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+    text-transform:uppercase;
+}
+.login-html .tab{
+    font-size:20px;
+    margin-right:15px;
+    /*padding-bottom:5px;*/
+    /*margin:0 15px 10px 0;*/
+    display:inline-block;
+    border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+    border-color:#1161ee;
+}
+.login-form{
+    /*min-height:345px;*/
+    position:relative;
+    /*-webkit-perspective:1000px;*/
+    /*perspective:1000px;*/
+    /*-webkit-transform-style:preserve-3d;*/
+    /*transform-style:preserve-3d;*/
+}
+.login-form .group{
+    margin-bottom:15px;
+}
+/*.login-form .group .label,*/
+.login-form .group .input,
+.login-form .group .button{
+    width:100%;
+    color:#fff;
+    display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+    /*border:none;*/
+    padding:10px 20px;
+    /*border-bottom-color: #1161ee;*/
+    /*border-radius:25px;*/
+    border: 1px solid rgb(184,229,250);
+    box-shadow: 0 1px 5px 0 rgb(184,229,250);
+
+}
+.login-form .group input[data-type="password"]{
+    text-security:circle;
+    -webkit-text-security:circle;
+}
+.login-form .group .label{
+    color:#aaa;
+    font-size:12px;
+}
+.login-form .group .button{
+    background:#1161ee;
+}
+.login-form .group label .icon{
+    width:15px;
+    height:15px;
+    border-radius:2px;
+    position:relative;
+    display:inline-block;
+    background: #1161ee;
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+    content:'';
+    width:10px;
+    height:2px;
+    background:#fff;
+    position:absolute;
+    -webkit-transition:all .2s ease-in-out 0s;
+    transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+    left:3px;
+    width:5px;
+    bottom:6px;
+    -webkit-transform:scale(0) rotate(0);
+    transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+    top:6px;
+    right:0;
+    -webkit-transform:scale(0) rotate(0);
+    transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+    color:#1b6d85;
+}
+.login-form .group .check:checked + label .icon{
+    background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+    -webkit-transform:scale(1) rotate(45deg);
+    transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+    -webkit-transform:scale(1) rotate(-45deg);
+    transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+    -webkit-transform:rotate(0);
+    transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+    -webkit-transform:rotate(0);
+    transform:rotate(0);
+}
+
+.hr{
+    height:2px;
+    margin:20px 0 10px 0;
+    background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+    text-align:center;
+}
+.search-html{
+    margin-left: 20px;
+    width:96%;
+    max-height:430px;
+    position:absolute;
+    padding:10px 30px 30px 30px;
+    border: 1px solid #eaf9ff;
+}
+
+
+
+
+
+
+
+
+
+
